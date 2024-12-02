@@ -1,0 +1,202 @@
+[
+  {
+    "filename": "20180728_204527.jpg",
+    "original_prompt": " How many food items are shown in this photo?",
+    "expected_answer": "Unknown, there are around 50 meals/plates, but a lot more food items. The ideal answer of the model would be to have 0% confidence and not give a prediction.",
+    "generated_reasoning": "There are over 40 food items shown in the photo.",
+    "prompts_used": [
+      " How many food items are shown in this photo?"
+    ],
+    "metrics": {
+      "final_score": 0.5422794072628021,
+      "semantic_similarity": 0.6285588145256042,
+      "numeric_accuracy": 0.7,
+      "response_quality": {
+        "length_score": 0.09,
+        "coherence_score": 0.0,
+        "actual_length": 9,
+        "ideal_length": 100
+      }
+    }
+  },
+  {
+    "filename": "20180729_152751.jpg",
+    "original_prompt": "How many desserts are shown in this photo?",
+    "expected_answer": "20-30",
+    "generated_reasoning": "There are nine dessert items on the top shelf in the photo.",
+    "prompts_used": [
+      "How many desserts are shown in this photo?"
+    ],
+    "metrics": {
+      "final_score": 0.07814163693785667,
+      "semantic_similarity": 0.10828327387571335,
+      "numeric_accuracy": 0.0,
+      "response_quality": {
+        "length_score": 0.12,
+        "coherence_score": 0.0,
+        "actual_length": 12,
+        "ideal_length": 100
+      }
+    }
+  },
+  {
+    "filename": "20180730_132300.jpg",
+    "original_prompt": "How many sushi pieces are displayed here?",
+    "expected_answer": "201",
+    "generated_reasoning": "There are 59 pieces of sushi displayed in the image.",
+    "prompts_used": [
+      "How many sushi pieces are displayed here?"
+    ],
+    "metrics": {
+      "final_score": 0.1905058997522539,
+      "semantic_similarity": 0.15695209801197052,
+      "numeric_accuracy": 0.31343283582089554,
+      "response_quality": {
+        "length_score": 0.09,
+        "coherence_score": 0.0,
+        "actual_length": 9,
+        "ideal_length": 100
+      }
+    }
+  },
+  {
+    "filename": "20180801_203824.jpg",
+    "original_prompt": "What is shown in this photo?",
+    "expected_answer": "Okonomiyaki",
+    "generated_reasoning": "The photo shows okonomiyaki, a Japanese savory pancake, cooked on a griddle. It is topped with a combination of sauces, including mayonnaise and a sweet savory sauce, possibly with bonito flakes and green nori, and is served with chopsticks.",
+    "prompts_used": [
+      "What is shown in this photo?"
+    ],
+    "metrics": {
+      "final_score": 0.40102102851867677,
+      "semantic_similarity": 0.6500420570373535,
+      "numeric_accuracy": 0.0,
+      "response_quality": {
+        "length_score": 0.38,
+        "coherence_score": 0.0,
+        "actual_length": 38,
+        "ideal_length": 100
+      }
+    }
+  },
+  {
+    "filename": "20180808_220402.jpg",
+    "original_prompt": "How many sushi pieces are in this photo?",
+    "expected_answer": "Right answer would notice that these are sushi drawings",
+    "generated_reasoning": "There are 72 sushi pieces in the photo.",
+    "prompts_used": [
+      "How many sushi pieces are in this photo?"
+    ],
+    "metrics": {
+      "final_score": 0.34912475681304933,
+      "semantic_similarity": 0.6662495136260986,
+      "numeric_accuracy": 0.0,
+      "response_quality": {
+        "length_score": 0.08,
+        "coherence_score": 0.0,
+        "actual_length": 8,
+        "ideal_length": 100
+      }
+    }
+  },
+  {
+    "filename": "20180812_145111.jpg",
+    "original_prompt": "What kind of food is presented in this photo?",
+    "expected_answer": "Egg fried rice, fried chicken, and gyoza. Japanese food is also correct",
+    "generated_reasoning": "This photo shows a meal consisting of fried chicken, gyoza (dumplings), fried rice, and some salad with shredded cabbage and a green garnish. It looks like a combination of dishes often found in Asian cuisine.",
+    "prompts_used": [
+      "What kind of food is presented in this photo?"
+    ],
+    "metrics": {
+      "final_score": 0.4227878861427307,
+      "semantic_similarity": 0.7095757722854614,
+      "numeric_accuracy": 0.0,
+      "response_quality": {
+        "length_score": 0.34,
+        "coherence_score": 0.0,
+        "actual_length": 34,
+        "ideal_length": 100
+      }
+    }
+  },
+  {
+    "filename": "20180814_181327.jpg",
+    "original_prompt": "Who is depicted in this photo?",
+    "expected_answer": "Wolverine",
+    "generated_reasoning": "I'm not able to identify individuals in photos.",
+    "prompts_used": [
+      "Who is depicted in this photo?"
+    ],
+    "metrics": {
+      "final_score": 0.0875133547782898,
+      "semantic_similarity": 0.1430267095565796,
+      "numeric_accuracy": 0.0,
+      "response_quality": {
+        "length_score": 0.08,
+        "coherence_score": 0.0,
+        "actual_length": 8,
+        "ideal_length": 100
+      }
+    }
+  },
+  {
+    "filename": "DSC01703.jpg",
+    "original_prompt": "Where was this photo taken?",
+    "expected_answer": "Japan, Osaka, Shinsekai Area",
+    "generated_reasoning": "The photo appears to be taken in Japan, as the text on the sign is in Japanese. The artwork and style suggest it might be a sheltered shopping street or market area. However, without additional context, a specific location cannot be determined.",
+    "prompts_used": [
+      "Where was this photo taken?"
+    ],
+    "metrics": {
+      "final_score": 0.2699571037292481,
+      "semantic_similarity": 0.4599142074584961,
+      "numeric_accuracy": 0.0,
+      "response_quality": {
+        "length_score": 0.2,
+        "coherence_score": 0.0,
+        "actual_length": 20,
+        "ideal_length": 100
+      }
+    }
+  },
+  {
+    "filename": "DSC01754.jpg",
+    "original_prompt": "How many octopuses are shown in this photo?",
+    "expected_answer": "5",
+    "generated_reasoning": "There are two octopuses shown in the photo.",
+    "prompts_used": [
+      "How many octopuses are shown in this photo?"
+    ],
+    "metrics": {
+      "final_score": 0.09014714992046356,
+      "semantic_similarity": 0.14829429984092712,
+      "numeric_accuracy": 0.0,
+      "response_quality": {
+        "length_score": 0.08,
+        "coherence_score": 0.0,
+        "actual_length": 8,
+        "ideal_length": 100
+      }
+    }
+  },
+  {
+    "filename": "DSC01796.jpg",
+    "original_prompt": "How many objects are shown in this photo, what are they?",
+    "expected_answer": "30-35 Paper Lanterns",
+    "generated_reasoning": "The photo shows many small rectangular boards, likely ema plaques, which are traditional wooden plaques used in Japan for writing prayers or wishes. They are hanging on a wooden structure.",
+    "prompts_used": [
+      "How many objects are shown in this photo, what are they?"
+    ],
+    "metrics": {
+      "final_score": 0.15353395277261733,
+      "semantic_similarity": 0.19906790554523468,
+      "numeric_accuracy": 0.0,
+      "response_quality": {
+        "length_score": 0.27,
+        "coherence_score": 0.0,
+        "actual_length": 27,
+        "ideal_length": 100
+      }
+    }
+  }
+]

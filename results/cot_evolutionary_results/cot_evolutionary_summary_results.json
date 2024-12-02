@@ -1,0 +1,322 @@
+[
+  {
+    "filename": "20180728_204527.jpg",
+    "original_prompt": " How many food items are shown in this photo?",
+    "expected_answer": "Unknown, there are around 50 meals/plates, but a lot more food items. The ideal answer of the model would be to have 0% confidence and not give a prediction.",
+    "generated_reasoning": "There are 39 food items shown in this photo.",
+    "best_prompts": [
+      " How many food items are shown in this photo?\nAnalyze the image carefully before answering."
+    ],
+    "metrics": {
+      "final_score": 0.6873367917537689,
+      "semantic_similarity": 0.8346735835075378,
+      "numeric_accuracy": 0.9,
+      "response_quality": {
+        "length_score": 0.0,
+        "coherence_score": 0.0,
+        "actual_length": 0,
+        "ideal_length": 0
+      },
+      "weights_used": {
+        "semantic_similarity": 0.5,
+        "numeric_accuracy": 0.3,
+        "response_quality": 0.2
+      },
+      "counting_analysis": {
+        "is_counting_question": false,
+        "found_numbers": false,
+        "predicted_number": null,
+        "target_number": null,
+        "numbers_found": []
+      }
+    }
+  },
+  {
+    "filename": "20180729_152751.jpg",
+    "original_prompt": "How many desserts are shown in this photo?",
+    "expected_answer": "20-30",
+    "generated_reasoning": "The display case contains 30 different dishes and drinks on display.",
+    "best_prompts": [
+      "Precise enumerateing process:\n5. If enumerateing is not possible, explain specific reasons and verify the result\nState final count or explain why counting cannot be done accurately."
+    ],
+    "metrics": {
+      "final_score": 0.48194499146938324,
+      "semantic_similarity": 0.5798899829387665,
+      "numeric_accuracy": 0.64,
+      "response_quality": {
+        "length_score": 0.0,
+        "coherence_score": 0.0,
+        "actual_length": 0,
+        "ideal_length": 0
+      },
+      "weights_used": {
+        "semantic_similarity": 0.5,
+        "numeric_accuracy": 0.3,
+        "response_quality": 0.2
+      },
+      "counting_analysis": {
+        "is_counting_question": false,
+        "found_numbers": false,
+        "predicted_number": null,
+        "target_number": null,
+        "numbers_found": []
+      }
+    }
+  },
+  {
+    "filename": "20180730_132300.jpg",
+    "original_prompt": "How many sushi pieces are displayed here?",
+    "expected_answer": "201",
+    "generated_reasoning": "The image shows a display with a total of 100 sushi pieces.",
+    "best_prompts": [
+      "How many sushi pieces are displayed here?\nAnalyze the image carefully before answering."
+    ],
+    "metrics": {
+      "final_score": 0.4630823539264166,
+      "semantic_similarity": 0.6007915735244751,
+      "numeric_accuracy": 0.5422885572139303,
+      "response_quality": {
+        "length_score": 0.0,
+        "coherence_score": 0.0,
+        "actual_length": 0,
+        "ideal_length": 0
+      },
+      "weights_used": {
+        "semantic_similarity": 0.5,
+        "numeric_accuracy": 0.3,
+        "response_quality": 0.2
+      },
+      "counting_analysis": {
+        "is_counting_question": false,
+        "found_numbers": false,
+        "predicted_number": null,
+        "target_number": null,
+        "numbers_found": []
+      }
+    }
+  },
+  {
+    "filename": "20180801_203824.jpg",
+    "original_prompt": "What is shown in this photo?",
+    "expected_answer": "Okonomiyaki",
+    "generated_reasoning": "The image shows a dish of okonomiyaki, a Japanese savory pancake, on a metal griddle. It's topped with sauces and mayonnaise, often drizzled in a pattern, and sprinkled with seaweed or herbs. A pair of chopsticks and a bowl are visible at the edge of the image.",
+    "best_prompts": [
+      "What is shown in this photo?\nAnalyze the image carefully before answering."
+    ],
+    "metrics": {
+      "final_score": 0.42866937816143036,
+      "semantic_similarity": 0.8573387563228607,
+      "numeric_accuracy": 0.0,
+      "response_quality": {
+        "length_score": 0.0,
+        "coherence_score": 0.0,
+        "actual_length": 0,
+        "ideal_length": 0
+      },
+      "weights_used": {
+        "semantic_similarity": 0.5,
+        "numeric_accuracy": 0.3,
+        "response_quality": 0.2
+      },
+      "counting_analysis": {
+        "is_counting_question": false,
+        "found_numbers": false,
+        "predicted_number": null,
+        "target_number": null,
+        "numbers_found": []
+      }
+    }
+  },
+  {
+    "filename": "20180808_220402.jpg",
+    "original_prompt": "How many sushi pieces are in this photo?",
+    "expected_answer": "Right answer would notice that these are sushi drawings",
+    "generated_reasoning": "The image appears to have a pattern with various sushi illustrations, but it is not possible to count real sushi pieces from a photo like this since it is a fabric design and not actual sushi with individual pieces to be consumed.",
+    "best_prompts": [
+      "How many sushi pieces are in this photo? and validate the result\nAnalyze the image carefully before answering."
+    ],
+    "metrics": {
+      "final_score": 0.4392336905002594,
+      "semantic_similarity": 0.8784673810005188,
+      "numeric_accuracy": 0.0,
+      "response_quality": {
+        "length_score": 0.0,
+        "coherence_score": 0.0,
+        "actual_length": 0,
+        "ideal_length": 0
+      },
+      "weights_used": {
+        "semantic_similarity": 0.5,
+        "numeric_accuracy": 0.3,
+        "response_quality": 0.2
+      },
+      "counting_analysis": {
+        "is_counting_question": false,
+        "found_numbers": false,
+        "predicted_number": null,
+        "target_number": null,
+        "numbers_found": []
+      }
+    }
+  },
+  {
+    "filename": "20180812_145111.jpg",
+    "original_prompt": "What kind of food is presented in this photo?",
+    "expected_answer": "Egg fried rice, fried chicken, and gyoza. Japanese food is also correct",
+    "generated_reasoning": "The photo depicts a meal featuring a combination of dishes common in Asian cuisine. Here is a detailed breakdown of the items presented:\n\n1. **Fried Chicken Pieces**:\n   - The bowl on the left contains fried chicken pieces. They appear to be crispy with a golden-brown coating, indicating they have been deep-fried.\n\n2. **Dumplings (Gyoza)**:\n   - On the right plate, there are several pan-fried dumplings, also known as gyoza. They have a browned, crispy side, suggesting they were prepared in a skillet.\n\n3. **Fried Rice**:\n   - A portion of fried rice is clearly visible on the plate. It looks to be mixed with ingredients like onions, possibly peas or diced carrots, and small bits of egg, which are typical components of fried rice.\n\n4. **Shredded Cabbage Salad**:\n   - Next to the fried rice, there is what appears to be a shredded cabbage salad. It\u2019s topped with a creamy dressing, which could be mayonnaise or another creamy sauce.\n\n5. **Parsley Garnish**:\n   - A sprig of parsley sits beside the salad, likely used as a garnish for aesthetic presentation.\n\n6. **Beverages**:\n   - In the background, there is a glass filled with what looks like a dark soda, along with a glass of water.\n\n7. **Chopsticks and Disposable Spoon**:\n   - Chopsticks are placed on the plate with the fried rice, suggesting the meal is intended to be eaten with chopsticks. A disposable spoon is behind the bowl, which might be used for the fried chicken.\n\nThe presentation and variety of dishes indicate a meal likely served in a casual Asian restaurant setting. The visible elements give a good overview, although the angle might hide other possible side items or sauces.",
+    "best_prompts": [
+      "What kind of food is presented in this photo?\nPlease be specific and detailed in your response.\n1. Focus on relevant elements for the question and confirm the result\n2. Describe visible details methodically\n3. Address any limitations in visibility\n4. Answer the question with available evidence"
+    ],
+    "metrics": {
+      "final_score": 0.4468180537223816,
+      "semantic_similarity": 0.8936361074447632,
+      "numeric_accuracy": 0.0,
+      "response_quality": {
+        "length_score": 0.0,
+        "coherence_score": 0.0,
+        "actual_length": 0,
+        "ideal_length": 0
+      },
+      "weights_used": {
+        "semantic_similarity": 0.5,
+        "numeric_accuracy": 0.3,
+        "response_quality": 0.2
+      },
+      "counting_analysis": {
+        "is_counting_question": false,
+        "found_numbers": false,
+        "predicted_number": null,
+        "target_number": null,
+        "numbers_found": []
+      }
+    }
+  },
+  {
+    "filename": "20180814_181327.jpg",
+    "original_prompt": "Who is depicted in this photo?",
+    "expected_answer": "Wolverine",
+    "generated_reasoning": "I'm unable to identify or provide the names of individuals depicted in images. However, the poster seems to be an advertisement, possibly for a food item, as it shows someone holding food skewers and includes Japanese text promoting grilled yakitori.",
+    "best_prompts": [
+      "systematically Who is depicted in this photo? and ensure the result\nAnalyze the image carefully before answering."
+    ],
+    "metrics": {
+      "final_score": 0.30528397858142853,
+      "semantic_similarity": 0.6105679571628571,
+      "numeric_accuracy": 0.0,
+      "response_quality": {
+        "length_score": 0.0,
+        "coherence_score": 0.0,
+        "actual_length": 0,
+        "ideal_length": 0
+      },
+      "weights_used": {
+        "semantic_similarity": 0.5,
+        "numeric_accuracy": 0.3,
+        "response_quality": 0.2
+      },
+      "counting_analysis": {
+        "is_counting_question": false,
+        "found_numbers": false,
+        "predicted_number": null,
+        "target_number": null,
+        "numbers_found": []
+      }
+    }
+  },
+  {
+    "filename": "DSC01703.jpg",
+    "original_prompt": "Where was this photo taken?",
+    "expected_answer": "Japan, Osaka, Shinsekai Area",
+    "generated_reasoning": "The photo was likely taken in Japan. The banner features Japanese writing and depicts a scene that could be from a zoo or a similar attraction, possibly referencing the Tsutenkaku Tower, a well-known landmark in Osaka.",
+    "best_prompts": [
+      "Where was this photo taken?"
+    ],
+    "metrics": {
+      "final_score": 0.41936393082141876,
+      "semantic_similarity": 0.8387278616428375,
+      "numeric_accuracy": 0.0,
+      "response_quality": {
+        "length_score": 0.0,
+        "coherence_score": 0.0,
+        "actual_length": 0,
+        "ideal_length": 0
+      },
+      "weights_used": {
+        "semantic_similarity": 0.5,
+        "numeric_accuracy": 0.3,
+        "response_quality": 0.2
+      },
+      "counting_analysis": {
+        "is_counting_question": false,
+        "found_numbers": false,
+        "predicted_number": null,
+        "target_number": null,
+        "numbers_found": []
+      }
+    }
+  },
+  {
+    "filename": "DSC01754.jpg",
+    "original_prompt": "How many octopuses are shown in this photo?",
+    "expected_answer": "5",
+    "generated_reasoning": "I'm unable to view or analyze the image directly, but I can guide you on how to analyze an image systematically.\n\n1. **Divide the Image into Clear Sections**:\n   - Split the image into parts based on logical or visual boundaries, such as different signs, objects, or distinct sections.\n\n2. **Count Items in Each Section Methodically**:\n   - Carefully count the visible items or elements in each section. This could include posters, signs, objects, or any notable elements.\n\n3. **Double-Check Each Section**:\n   - Re-evaluate to ensure no items were missed or miscounted. This could involve looking for small or partially obscured elements.\n\n4. **If Counting is Impossible, Explain Why**:\n   - Detail issues such as image quality, obstruction, or complex visuals that hinder accurate counting.\n\n5. **State Your Confidence Level and Any Uncertainties**:\n   - Provide an overall assessment of your confidence in the count and highlight any areas of doubt or confusion.\n\nEach section\u2019s count and analysis will depend on your interpretation based on these guidelines.",
+    "best_prompts": [
+      "Analyze this image systematically:\n5. State your confidence level and any uncertainties\nProvide final enumerate or detailed explanation if enumerateing isn't feasible.\n1. Divide the image into clear sections\n2. Count items in each section methodically\n3. Double-check each section\n4. If counting is impossible, explain why"
+    ],
+    "metrics": {
+      "final_score": 0.3666929168999195,
+      "semantic_similarity": 0.613385833799839,
+      "numeric_accuracy": 0.19999999999999996,
+      "response_quality": {
+        "length_score": 0.0,
+        "coherence_score": 0.0,
+        "actual_length": 0,
+        "ideal_length": 0
+      },
+      "weights_used": {
+        "semantic_similarity": 0.5,
+        "numeric_accuracy": 0.3,
+        "response_quality": 0.2
+      },
+      "counting_analysis": {
+        "is_counting_question": false,
+        "found_numbers": false,
+        "predicted_number": null,
+        "target_number": null,
+        "numbers_found": []
+      }
+    }
+  },
+  {
+    "filename": "DSC01796.jpg",
+    "original_prompt": "How many objects are shown in this photo, what are they?",
+    "expected_answer": "30-35 Paper Lanterns",
+    "generated_reasoning": "The image shows a display of decorative objects, possibly traditional plaques or papers, each with colorful ribbons. \n\n1. Image clarity and visibility: The photo is clear, and items are visible.\n2. Grid method: \n   - Counted left-to-right, top-to-bottom.\n   - Each row appears to have 10 objects.\n   - There are 5 rows.\n\nTotal objects: 50.\n\n3. Partially visible or obscured items: None appear significantly obscured.\n\n4. Reverse tally: Verified the count of 50 by assessing the rows and columns in reverse.",
+    "best_prompts": [
+      "How many objects are shown in this photo, what are they?\nAnalyze the image carefully before answering.\n1. Assess image clarity and item visibility\n2. Use grid method: count left-to-right, top-to-bottom\n3. Note any partially visible or obscured items\nmethodically 4. Verify tally by tallying in reverse"
+    ],
+    "metrics": {
+      "final_score": 0.6012120215730233,
+      "semantic_similarity": 0.6933331340551376,
+      "numeric_accuracy": 0.8484848484848485,
+      "response_quality": {
+        "length_score": 0.0,
+        "coherence_score": 0.0,
+        "actual_length": 0,
+        "ideal_length": 0
+      },
+      "weights_used": {
+        "semantic_similarity": 0.5,
+        "numeric_accuracy": 0.3,
+        "response_quality": 0.2
+      },
+      "counting_analysis": {
+        "is_counting_question": false,
+        "found_numbers": false,
+        "predicted_number": null,
+        "target_number": null,
+        "numbers_found": []
+      }
+    }
+  }
+]
