@@ -1,3 +1,8 @@
+# Evolutionary-style Methods for Chain-of-Thought Reasoning for Large-Language Models
+Authors: John Rho, Regina Lin (Harvard)
+
+Code is our own.
+
 # Japanese Uncertain Scenes Dataset (JUS-Dataset)
 
 ## Dataset Overview
